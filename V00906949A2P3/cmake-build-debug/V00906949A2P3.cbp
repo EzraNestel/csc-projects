@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug"/>
+				<Option working_dir="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug"/>
+				<Option working_dir="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug"/>
+				<Option working_dir="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="V00906949A2P3">
-				<Option output="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/V00906949A2P3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug"/>
+				<Option output="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/V00906949A2P3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 V00906949A2P3"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 V00906949A2P3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="V00906949A2P3/fast">
-				<Option output="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/V00906949A2P3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug"/>
+				<Option output="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/V00906949A2P3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,17 +71,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 V00906949A2P3/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 V00906949A2P3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/main.c">
+		<Unit filename="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/main.c">
 			<Option target="V00906949A2P3"/>
 		</Unit>
-		<Unit filename="/Users/ezranestel/CLionProjects/B02/V00906949A2P3/CMakeLists.txt">
+		<Unit filename="/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

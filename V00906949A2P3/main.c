@@ -23,37 +23,35 @@ void artithmeticSequence(int start, int diff, int end){
 }//arithmeticSequence
 
 int leoValue(int n){
-
+    if (n == 0 ||n == 1){
+        return 1;
+    } else{
+        return leoValue(n-1) + leoValue(n-2) + 1;
+    }
 
 }
 
 
 void leonardoSequence(int start, int end){
     int k = start;
+    printf("LeonardoSequence:_");
 
-    printf("LeonardoSequence:_%d_",k);
-
-    while(leoValue(k) <= end){
-
-        if (k == 0 || k == 1) {
-            k = 1;
-        }else{
-            k = leoValue(k-1) + (leoValue(k-2) + 1);
-        }
-
-    }//while
-    printf("Fin\n");
+    while(leoValue(k-1) <= end && k <= 12){
+        printf("%d_", leoValue(k-1));
+        k = k + 1;
+    }
+    printf("\n");
 }//leonardoSequence
 
 int main() {
 
-    //artithmeticSequence(3, 2, 17);
-   // artithmeticSequence(-17, 7, 37);
-   // artithmeticSequence(0, 29, 199);
+    artithmeticSequence(3, 2, 17);
+    artithmeticSequence(-17, 7, 37);
+    artithmeticSequence(0, 29, 199);
     leonardoSequence(1, 137);
     leonardoSequence(2, 69);
     leonardoSequence(5, 177);
 
-    printf("\n");
+
     return EXIT_SUCCESS;
 }

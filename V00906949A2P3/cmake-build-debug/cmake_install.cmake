@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ezranestel/CLionProjects/B02/V00906949A2P3
+# Install script for directory: /Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ezranestel/CLionProjects/B02/V00906949A2P3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ezranestel/Documents/GitHub/csc-projects/V00906949A2P3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
