@@ -66,7 +66,6 @@ void printRoman(int r) {
     // replace with your code
     int d = 0;
     int dims[4] = {1000,100,10,1};
-    printf(FEEDBACK_MSG,r);
 
     for (int k = 0; k <= 3; k++) {
         d = extractDimDigit(r, dims[k]);
@@ -81,9 +80,19 @@ void interactiveRoman(void) {
     int r = 0;
     for (int i = 0; i < n; i++) {
         scanf("%d", &r);
-        // Your code here
+
+        if (r == 0) {
+            printf(BYE_MSG);
+            break;
+        } else if (r <= 4999 && r > 0) {
+            printRoman(r);
+        } else {
+            printf(ERROR_MSG);
+        }
     }//for
 }// interactiveRoman
+
+
 int main(void) {
     interactiveRoman();
     return EXIT_SUCCESS;
