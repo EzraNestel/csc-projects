@@ -23,10 +23,10 @@ void artithmeticSequence(int start, int diff, int end){
 }//arithmeticSequence
 
 int leoValue(int n){
-    if (n == 0 ||n == 1){
+    if (n == 0 ||n == 1){ //If n is equal to 0 or 1 return 1
         return 1;
     } else{
-        return leoValue(n-1) + leoValue(n-2) + 1;
+        return leoValue(n-1) + leoValue(n-2) + 1; // If it is not use recursion to loop the function until we get 1
     }
 
 }
@@ -35,7 +35,6 @@ int leoValue(int n){
 void leonardoSequence(int start, int end){
     int k = start;
     printf("LeonardoSequence:_");
-
     while(leoValue(k-1) <= end && k <= 12){
         printf("%d_", leoValue(k-1));
         k = k + 1;
