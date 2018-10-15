@@ -1,0 +1,11 @@
+
+* {
+    font-family: Arial;
+    color: white;
+    background-color: dimgrey;
+}
+
+canvas {
+    border:1px solid white;
+    background-color: darkgreen;
+}
