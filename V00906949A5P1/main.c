@@ -44,7 +44,7 @@ FILE* createFile(char* fnam) {
 
 void drawCirclesRowSVG(FILE* ofp, char* id, int cx, int cy, int rad, int n, int r, int g, int b){
     for (int i = 0; i < n; i ++) {
-        float opacity = 1.0 - (float)i/10;
+        float opacity = (float)i/10 + .6;
         printf("%f",opacity);
         fillCircleSVG(ofp, id, cx+2*i*cx, cy, rad, r,g,b, opacity);
     }
