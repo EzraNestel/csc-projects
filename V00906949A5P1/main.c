@@ -43,8 +43,10 @@ FILE* createFile(char* fnam) {
 }//createFile
 
 void drawCirclesRowSVG(FILE* ofp, char* id, int cx, int cy, int rad, int n, int r, int g, int b){
-    for (int i = cx; i < WINWIDTH; i += cx*2) {
-        fillCircleSVG(ofp, id, i, cy, rad, r,g,b, 0.6);
+    for (int i = 0; i < n; i ++) {
+        float opacity = 1.0 - (float)i/10;
+        printf("%f",opacity);
+        fillCircleSVG(ofp, id, cx+2*i*cx, cy, rad, r,g,b, opacity);
     }
 }//drawCirclesRowSVG
 
