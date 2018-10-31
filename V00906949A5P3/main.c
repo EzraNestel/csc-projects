@@ -154,12 +154,12 @@ void genRandomArt(FILE *ofp, char *id, int nShapes){
     for (int k=1; k<=nShapes; k++) {
         // Use the function genRandomArtNumSet to generate the random numbers
         // Use the function fillCircleSVG to create the SVG shapes
-        genRandomArtNumSet(&x, &y, &rad, &r, &g, &b, &op);
-        fillCircleSVG(ofp,)
+        genRandomArtNumSet(&rx, &ry, &rad, &r, &g, &b, &op);
+        fillCircleSVG(ofp, id, rx, ry, rad,r, g, b, op);
     }//for
     commentSVG(ofp, ID2, "SVG animation");
     // Use the function textSwipeAnimateSVG to create the animated text
-    // Replace with your code here
+    textSwipeAnimateSVG(ofp,id,ANIMATIONTEXT,12,x,y,r,g,b,op);
     closeSVG(ofp, ID1);
 }// genRandomArt
 
