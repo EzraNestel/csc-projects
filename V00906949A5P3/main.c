@@ -155,11 +155,12 @@ void genRandomArt(FILE *ofp, char *id, int nShapes){
         // Use the function genRandomArtNumSet to generate the random numbers
         // Use the function fillCircleSVG to create the SVG shapes
         genRandomArtNumSet(&rx, &ry, &rad, &r, &g, &b, &op);
+
         fillCircleSVG(ofp, id, rx, ry, rad,r, g, b, op);
     }//for
     commentSVG(ofp, ID2, "SVG animation");
     // Use the function textSwipeAnimateSVG to create the animated text
-    textSwipeAnimateSVG(ofp,id,ANIMATIONTEXT,12,x,y,r,g,b,op);
+    textSwipeAnimateSVG(ofp, ID2, ANIMATIONTEXT, 50, 50,200, r, g, b, op);
     closeSVG(ofp, ID1);
 }// genRandomArt
 
@@ -167,6 +168,9 @@ FILE* createFile(char* fnam) {
     // Create a new file.
     // The name of the file is given in the parameter fnam
     FILE* ofp = fopen(fnam,"w");
+    if (ofp == NULL) {
+        printf(FOPENERR);
+    }
     return ofp;
 }//createFile
 
