@@ -79,7 +79,7 @@ void closeSVG(FILE* ofp, char* id) {
 void fillRectSVG(FILE* ofp, char* id, int x, int y, int w, int h, int r, int g, int b, float op) {
     fprintf(ofp, "%s<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"%d\" fill=\"rgb(%d, %d, %d)\" fill-opacity=\"%.1f\"></rect>\n", id, x, y, w, h,r, g, b, op);
 }//fillRectSVG
-
+®
 void fillCircleSVG(FILE* ofp, char* id, int cx, int cy, int rad, int r, int g, int b, float op) {
     fprintf(ofp, "%s<circle cx=\"%d\" cy=\"%d\" r=\"%d\" fill=\"rgb(%d, %d, %d)\" fill-opacity=\"%.1f\"></circle>\n", id, cx, cy, rad, r, g, b, op);
     printf("op[%d]=%.1f_\n", cx, op);

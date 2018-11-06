@@ -11,7 +11,7 @@
 #define TABTITLE ("My CSC 111 Art")
 #define WELCOME ("Welcome to my CSC 111 Webpage")
 #define RESUME ("SVG is a great skill for my co-op job resume")
-#define ANIMATIONTEXT ("My CSC 111 Art ...")
+#define ANIMATIONTEXT ("To MOM")
 
 #define WINWIDTH (800)
 #define WINHEIGHT (320)
@@ -20,7 +20,7 @@
 #define STR_HELPER(x) #x
 #define STR(x) STR_HELPER(x)
 
-#define MAXNUMSHAPES 1000
+#define MAXNUMSHAPES 100
 #define STRSH (STR(MAXNUMSHAPES) " shapes generated")
 
 #define SHAPEMIN (0)
@@ -44,7 +44,7 @@
 #define GREENSHADE (3)
 #define BLUESHADE (4)
 #define PURPLESHADE (5)
-#define FAVORITESHADE (6)
+#define FAVORITESHADE (2)
 
 #define SHADE (FAVORITESHADE)
 
