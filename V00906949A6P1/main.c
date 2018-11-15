@@ -99,7 +99,9 @@ void setValVector(Index len, Vector v, Item val) {
 
 void setIdxVector(Index len, Vector v) {
     // initialize each component of 'v' with its index
-    // replace with your code for setIdxVector
+    for (Index j = 0; j < len; j++) {
+        v[j] = j;
+    }
 }//setIdxVector
 
 int prngInt(int iLow, int iHigh) {
@@ -123,30 +125,42 @@ void setRandomVector(Index len, Vector v, Item low, Item high) {
 
 void addScalarVector(Index len, Vector v, Item scalar) {
     // add 'scalar' to each component of 'v’
-    // replace with your code for addScalarVector
+    for (Index j = 0; j < len; j++) {
+        v[j] += scalar;
+    }
 }//addScalarVector
 
 void mulScalarVector(Index len, Vector v, Item scalar) {
     // multiply each component of 'v' by 'scalar'
-    // replace with your code for mulScalarVector
+    for (Index j = 0; j < len; j++) {
+        v[j] = v[j]*scalar;
+    }
 }//mulScalarVector
 
 void divScalarVector(Index len, Vector v, Item scalar) {
     // multiply each component of 'v' by 'scalar'
-    // replace with your code for divScalarVector
+    for (Index j = 0; j < len; j++) {
+        v[j] = v[j]/scalar;
+    }
 }//divScalarVector
 
 void squareVector(Index len, Vector v) {
     // v[k] = v[k] * v[k]
-    // replace with your code for squareVector
+    for (Index j = 0; j < len; j++) {
+        v[j] = v[j] * v[j];
+    }
 }//squareVector
 
 void addVectors(Index len, const Vector v1, const Vector v2, Vector v3) {
     // v3[k] = v1[k] + v2[k]
-    // replace with your code for addVectors
+    for (Index j = 0; j < len; j++) {
+        v3[j] = v1[j] + v2[j];
+    }
 }//addVectors
 
 void mulVectors(Index len, const Vector v1, const Vector v2, Vector v3) {
     // v3[k] = v1[k] * v2[k]
-    // replace with your code for mulVectors
+    for (Index j = 0; j < len; j++) {
+        v3[j] = v1[j] * v2[j];
+    }
 }//mulVectors
