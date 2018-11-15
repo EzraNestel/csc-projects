@@ -1,3 +1,11 @@
+/*  Name: Ezra Nestel
+    UVicID: V00906949
+    Date: 2018/11/14
+    Assignment: Assignment 6, Part 1
+    File name: V00906949A6P1
+    Description: Functions to manipulate vectors
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -122,6 +130,7 @@ void setRandomVector(Index len, Vector v, Item low, Item high) {
     // random numbers in the range of 'low' to 'high'
     for (Index k = 0; k < len; k++) v[k] = prngInt(low, high);
 }//setRandomVector
+
 
 void addScalarVector(Index len, Vector v, Item scalar) {
     // add 'scalar' to each component of 'v’
