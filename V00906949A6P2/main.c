@@ -1,3 +1,11 @@
+/*
+    Name: Ezra Nestel
+    UVicID: V00906949
+    Date: 2018/11/14
+    Assignment: Assignment 6, Part 2
+    File name: V00906949A6P2.c
+    Description: More advanced linear algebra functions
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -96,33 +104,54 @@ void setRandomVector(Index len, Vector v, Item low, Item high){
 }//setRandomVector
 
 Item sumVector(Index len, const Vector v){
-    // return the sum of all components of 'v’
-    // replace with your code for sumVector
-    return -1;
+    int sum = 0;
+    for (Index i = 0; i < len; i++) {
+        sum = v[i] + sum;
+    }
+    return sum;
 }//sumVector
 
 Item dotProductVectors(Index len, const Vector v1, const Vector v2) {
     // return dot product of v1 and v2
     // Ex: dot product of [1 7 6 2 4] and [3 1 2 1 4] is 40
-    // replace with your code for dotProduct
-    return -1;
+    int product = 0;
+    for (Index i = 0; i < len; i++) {
+        product += (v1[i]*v2[i]);
+    }
+    return product;
 }//dotProductVectors
 
 Item findMinInVector(Index len, const Vector v) {
     // find and return min array element
     // Ex: min of [1 7 6 2 4] is 1
-    // replace with your code for findMinInVector
-    return -1;
+    int min = v[0];
+    for (Index i = 0; i < len; i++) {
+        if (min > v[i]) {
+            min = v[i];
+        }
+    }
+    return min;
 }//findMinInVector
 
 Item findMaxInVector(Index len, const Vector v) {
     // find and return min array element
     // Ex: max of [1 7 6 2 4] is 7
-    // replace with your code for findMaxInVector
-    return -1;
+    int max = v[0];
+    for (Index i = 0; i < len; i++) {
+        if (max < v[i]) {
+            max = v[i];
+        }
+    }
+    return max;
 }//findMaxInVector
 
 bool findValueInVector(Index len, const Vector v, Item val, Index* fidx){
-    // replace with your code for findValueInVector
+
+    for (Index i = 0; i < len; i++) {
+        if (v[i] == val) {
+            *fidx = i;
+            return true;
+        }
+    }
     return false;
 }//findValueInVector
