@@ -11,6 +11,8 @@ stdlib.h
 -
 stdio.h
 -
-time.h
+string.h
+-
+stdbool.h
 -
 
