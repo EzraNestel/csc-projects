@@ -12,27 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71653e6-c552-4f11-bd4b-345a199438c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P2/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/V00906949A7P5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../V00906949A7P5/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/Playground.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/Playground.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/Playground.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/Playground.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/cmake-build-debug/Playground" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/cmake-build-debug/Playground" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Playground/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V00906949A7P1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../V00906949A7P1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V00906949A7P3.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V00906949A7P3.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/V00906949A7P3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/V00906949A7P3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V00906949A7P5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../V00906949A7P5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,24 +31,27 @@
     <session id="-1568946265">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="369" />
+          <entry key="c" value="370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="369" />
+          <entry key="ObjectiveC" value="370" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -72,8 +60,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="419">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <folding>
+                <element signature="e#177#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,36 +145,38 @@
       <option name="presentableId" value="Default" />
       <updated>1543028499190</updated>
       <workItem from="1543028500407" duration="2773000" />
+      <workItem from="1543039671714" duration="1828000" />
+      <workItem from="1543126540158" duration="133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2773000" />
+    <option name="totallyTimeSpent" value="4734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,8 +191,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="419">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding>
+            <element signature="e#177#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

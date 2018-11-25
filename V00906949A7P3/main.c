@@ -47,12 +47,12 @@ void invertCase(char* s){
     while (s[i] != '\0'){
         letter = s[i];
         if (islower(s[i]) == 1) {
-            s[i] = toupper(letter);
+            s[i] = (char) toupper(letter);
 
         } else if (isupper(s[i]) == 1) {
 
-            s[i] = tolower(letter);
-        }
+            s[i] = (char) tolower(letter);
+        } 
 
         i++;
     }

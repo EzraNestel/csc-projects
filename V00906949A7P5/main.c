@@ -9,7 +9,7 @@ Description: Shifts column matrix to the right
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SIZE (8)
+#define SIZE (3)
 #define LOW (10)
 #define HIGH (99)
 
@@ -51,7 +51,16 @@ int main(void) {
    ==================================================
 */
 void rotateMatrixColumnsRight(Matrix A, Index rows, Index cols) {
-   // replace with your code
+   // store last column as vector
+   Vector right[cols];
+   copyMatrixColumnToVector(A, right, rows, cols, SIZE - 1);
+
+   for (int m = SIZE - 1; m > 0; m--) {
+       copyMatrixColumnRight(A, rows, cols, m-1, m);
+   }
+   //rotate each column to the right most
+   copyVectorToMatrixColumn(right, A, rows, cols, 0);
+   // replace first column with right most saved
 }//rotateMatrixColumnsRight
 
 void testRotateColumnsRight(void){
